@@ -2,7 +2,7 @@
 // Centralized HTTP client consuming all Spring Boot endpoints
 
 // const DEFAULT_API_URL = import.meta.env.VITE_API_URL || '/api';
-const DEFAULT_API_URL = 'https://backend2proyectointegradorv1-z5sjxaet.b4a.run'
+const DEFAULT_API_URL = 'https://backend2proyectointegradorv1-z5sjxaet.b4a.run/v1'
 
 export const getApiBaseUrl = () => {
   return localStorage.getItem('medicitas_api_url') || DEFAULT_API_URL;
